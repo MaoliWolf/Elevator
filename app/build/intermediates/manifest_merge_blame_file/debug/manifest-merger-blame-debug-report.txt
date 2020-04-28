@@ -1,0 +1,99 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3Copyright (C) 2013 The Android Open Source Project
+4
+5Licensed under the Apache License, Version 2.0 (the "License");
+6you may not use this file except in compliance with the License.
+7You may obtain a copy of the License at
+8
+9http://www.apache.org/licenses/LICENSE-2.0
+10
+11Unless required by applicable law or agreed to in writing, software
+12distributed under the License is distributed on an "AS IS" BASIS,
+13WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14See the License for the specific language governing permissions and
+15limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="net.zentring.elevator"
+19    android:versionCode="1"
+20    android:versionName="2.02" >
+21
+22    <uses-sdk
+22-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:59:5-61:35
+23        android:minSdkVersion="22"
+23-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:59:5-61:35
+24        android:targetSdkVersion="29" />
+24-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:60:9-38
+25
+26    <uses-permission android:name="android.permission.VIBRATE" />
+26-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:22:5-66
+26-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:22:22-63
+27    <!--
+28    Declare this required feature if you want to make the app available to BLE-capable
+29    devices only.  If you want to make your app available to devices that don't support BLE,
+30    you should omit this in the manifest.  Instead, determine BLE capability by using
+31    PackageManager.hasSystemFeature(FEATURE_BLUETOOTH_LE)
+32    -->
+33    <uses-feature
+33-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:51:5-54:36
+34        android:name="android.hardware.bluetooth_le"
+34-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:52:9-53
+35        android:required="true" />
+35-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:53:9-32
+36
+37    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+37-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:56:5-74
+37-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:56:22-71
+38    <uses-permission android:name="android.permission.BLUETOOTH" />
+38-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:57:5-68
+38-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:57:22-65
+39
+40    <application
+40-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:23:5-46:19
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.1.0] C:\Users\cces1\.gradle\caches\transforms-2\files-2.1\cf83f438fd751d9ff271198248ec750b\core-1.1.0\AndroidManifest.xml:24:18-86
+42        android:debuggable="true"
+43        android:icon="@drawable/mg_launcher"
+43-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:24:9-45
+44        android:label="@string/app_name"
+44-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:25:9-41
+45        android:testOnly="true"
+46        android:theme="@style/Theme.AppCompat.Light" >
+46-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:26:9-53
+47        <activity
+47-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:27:9-34:20
+48            android:name="com.mgexample.bluetooth.remotecontrol.RemoteDeviceScanActivity"
+48-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:28:13-53
+49            android:label="@string/app_name" >
+49-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:29:13-45
+50            <intent-filter>
+50-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:30:13-33:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:31:17-69
+51-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:31:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:32:17-77
+53-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:32:27-74
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:36:9-38:51
+57            android:name="com.mgexample.bluetooth.remotecontrol.BluetoothAdvUI"
+57-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:37:13-43
+58            android:logo="@drawable/mg_sniffer" />
+58-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:38:13-48
+59        <activity android:name="com.mgexample.bluetooth.remotecontrol.MainActivity" />
+59-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:40:9-41:44
+59-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:41:13-41
+60
+61        <service
+61-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:43:9-45:38
+62            android:name="com.mgexample.bluetooth.remotecontrol.BluetoothLeService"
+62-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:44:13-47
+63            android:enabled="true" />
+63-->D:\Zentring\Android\ElevatorDemo\app\src\main\AndroidManifest.xml:45:13-35
+64    </application>
+65
+66</manifest>

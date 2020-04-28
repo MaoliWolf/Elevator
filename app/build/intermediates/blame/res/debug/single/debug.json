@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "D:\\Zentring\\Android\\ElevatorDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_scaleui.xml.flat",
+        "source": "D:\\Zentring\\Android\\ElevatorDemo\\app\\src\\main\\res\\layout\\scaleui.xml"
+    },
+    {
+        "merged": "D:\\Zentring\\Android\\ElevatorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mg_sniffer.png.flat",
+        "source": "D:\\Zentring\\Android\\ElevatorDemo\\app\\src\\main\\res\\drawable\\mg_sniffer.png"
+    },
+    {
+        "merged": "D:\\Zentring\\Android\\ElevatorDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "D:\\Zentring\\Android\\ElevatorDemo\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Zentring\\Android\\ElevatorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Zentring\\Android\\ElevatorDemo\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Zentring\\Android\\ElevatorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_up.xml.flat",
+        "source": "D:\\Zentring\\Android\\ElevatorDemo\\app\\src\\main\\res\\drawable\\arrow_up.xml"
+    },
+    {
+        "merged": "D:\\Zentring\\Android\\ElevatorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mgicon.bmp.flat",
+        "source": "D:\\Zentring\\Android\\ElevatorDemo\\app\\src\\main\\res\\drawable\\mgicon.bmp"
+    },
+    {
+        "merged": "D:\\Zentring\\Android\\ElevatorDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_gatt_services_characteristics.xml.flat",
+        "source": "D:\\Zentring\\Android\\ElevatorDemo\\app\\src\\main\\res\\layout\\gatt_services_characteristics.xml"
+    },
+    {
+        "merged": "D:\\Zentring\\Android\\ElevatorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Zentring\\Android\\ElevatorDemo\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Zentring\\Android\\ElevatorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_down.xml.flat",
+        "source": "D:\\Zentring\\Android\\ElevatorDemo\\app\\src\\main\\res\\drawable\\arrow_down.xml"
+    },
+    {
+        "merged": "D:\\Zentring\\Android\\ElevatorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_.png.flat",
+        "source": "D:\\Zentring\\Android\\ElevatorDemo\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher_.png"
+    },
+    {
+        "merged": "D:\\Zentring\\Android\\ElevatorDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu_gatt_services.xml.flat",
+        "source": "D:\\Zentring\\Android\\ElevatorDemo\\app\\src\\main\\res\\menu\\gatt_services.xml"
+    },
+    {
+        "merged": "D:\\Zentring\\Android\\ElevatorDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_actionbar_indeterminate_progress.xml.flat",
+        "source": "D:\\Zentring\\Android\\ElevatorDemo\\app\\src\\main\\res\\layout\\actionbar_indeterminate_progress.xml"
+    },
+    {
+        "merged": "D:\\Zentring\\Android\\ElevatorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_seekbar_progress.xml.flat",
+        "source": "D:\\Zentring\\Android\\ElevatorDemo\\app\\src\\main\\res\\drawable\\custom_seekbar_progress.xml"
+    },
+    {
+        "merged": "D:\\Zentring\\Android\\ElevatorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mg_launcher.png.flat",
+        "source": "D:\\Zentring\\Android\\ElevatorDemo\\app\\src\\main\\res\\drawable\\mg_launcher.png"
+    },
+    {
+        "merged": "D:\\Zentring\\Android\\ElevatorDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_listitem_device.xml.flat",
+        "source": "D:\\Zentring\\Android\\ElevatorDemo\\app\\src\\main\\res\\layout\\listitem_device.xml"
+    },
+    {
+        "merged": "D:\\Zentring\\Android\\ElevatorDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Zentring\\Android\\ElevatorDemo\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Zentring\\Android\\ElevatorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Zentring\\Android\\ElevatorDemo\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Zentring\\Android\\ElevatorDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mg_xxx.png.flat",
+        "source": "D:\\Zentring\\Android\\ElevatorDemo\\app\\src\\main\\res\\drawable\\mg_xxx.png"
+    }
+]
